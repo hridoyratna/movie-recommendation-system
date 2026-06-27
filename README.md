@@ -153,8 +153,6 @@ The project includes a `procfile` and `setup.sh` for Heroku deployment.
 web: sh setup.sh && streamlit run app.py
 ```
 
-> ⚠️ The original `procfile` has a typo (`app.ay` instead of `app.py`). Make sure to fix it before deploying.
-
 ---
 
 ## 📓 Notebook Overview
